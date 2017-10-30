@@ -1,0 +1,469 @@
+body{
+    margin: 0;
+    width:100%; 
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    padding: 0;
+    background-image: url(wall.jpg);
+    display: flex;
+    flex-wrap:wrap; 
+}
+.Picture {
+    background-image: url(car.jpg);
+    width: 1400px;
+    height: 325px;
+    margin-left: -6%;  
+}
+footer{
+    background-color: black;
+    width: 100%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    align-self: flex-end;
+    order: 2;
+    font-size: 25px;
+    
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 99.6%;
+    height: 50px;
+}
+header .center{
+    align-items: center;
+    justify-content: center;
+}
+
+#search{
+    height: 20px;
+    width: 200px;
+}
+header div{
+    display: flex;
+    width: 25%;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right a:hover{
+    color: red;
+    font-size: 18px;
+}
+.left a:hover{
+    color: blue;
+    font-size: 40px;
+}
+header .right a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 25%;
+    border:1px solid black;
+}
+header .left a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 25%;
+    font-size: 40px;
+    border:1px solid black;
+}
+header h3{
+    width: 5%;
+    margin: 0;
+    margin-left: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+}
+#section{
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    order: 1;
+    padding-bottom:80px;
+}
+section .MaxMin{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+section .Add{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .Add .center{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .Add .center a{
+   margin:0;
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+}
+section .Last{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    background-color: black;
+    color: blue;
+}
+section .Last h1{
+    text-align: center;
+    width: 100%;
+}
+.card .icon{
+    position: absolute;
+    top:0;
+    right: 0;
+  }
+  .cars .title{
+     text-align: center;
+     color: white;
+     text-decoration: none;
+   }
+
+  .cars .price{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: red;
+  }
+  .words{
+      display: flex;
+      margin-left: 100px;
+      font-size: 13px;
+  }
+   .words h1{
+       margin-right: 50px;
+       color: yellow;
+}
+  .cars img{
+   width: 150px;
+   height: 150px;
+  }
+  .cars .icon{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .card .title{
+     text-align: center;
+     color: white;
+     text-decoration: none;
+   }
+
+  .card .price{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+  }
+  .Max,.Min{
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 8px; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    width: 400px;
+    height: 150px;
+  }
+  .card {
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 8px; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+  .cars{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+  section .Last .cards{   
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Add .center a:hover{
+    color: black;
+}
+
+@media screen and (max-width:500px) {
+    body{
+        margin: 0;
+        width:100%; 
+        font-family: 'Raleway', sans-serif;
+        height: 100vh;
+        padding: 0;
+        background-image: url(wall.jpg);
+        display: flex;
+        flex-wrap:wrap; 
+    }
+    .Picture{
+        display: none;}
+    footer{
+        background-color: black;
+        width: 100%;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5%;
+        align-self: flex-end;
+        order: 2;
+        font-size: 25px;
+        
+    }
+    
+    header{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 99%;
+        height: 100px;
+    }
+    
+    #search,#button{
+        display: none;
+    }
+    header div{
+        display: flex;
+        width: 100%;
+    }
+    .right{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .right a:hover{
+        color: red;
+        font-size: 18px;
+    }
+    .left a:hover{
+        color: blue;
+        font-size: 40px;
+    }
+    header .right a{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        width: 25%;
+        border:1px solid black;
+    }
+    header .left a{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        width: 25%;
+        font-size: 40px;
+        border:1px solid black;
+        margin-left: 130px;
+    }
+    header h3{
+        width: 5%;
+        margin: 0;
+        margin-left: 10px;
+        padding-top: 5px;
+        text-align: center;
+        color:white;
+        font-size: 30px;
+    }
+    section{
+        background-color: grey;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        order: 1;
+}
+    section .MaxMin{
+    display: none;
+}
+    section .Add{
+        width: 80%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section .Add .center{
+        background-color: red;
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section .Add .center a{
+       margin:0;
+       text-decoration: none;
+       color: white;
+       font-size: 25px;
+    }
+    section .Last{
+        width: 80%;
+        height: 1500px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        background-color: black;
+        color: blue;
+    }
+    section .Last h1{
+        text-align: center;
+        width: 100%;
+    }
+    .card .icon{
+        position: absolute;
+        top:0;
+        right: 0;
+      }
+      .cars .title{
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        margin-top: -10px;
+      }
+    
+      .cars .price{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-right: 25px;
+        color: red;
+      }
+      .words{
+          display: flex;
+          margin-left: 50px;
+          font-size: 10px;
+      }
+       .words h1{
+           margin-right: 50px;
+           color: yellow;
+    }
+      .cars img{
+       width: 150px;
+       height: 150px;
+      }
+      .cars .icon{
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+      }
+      
+      .card .title{
+         text-align: center;
+         color: white;
+         text-decoration: none;
+       }
+    
+      .card .price{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: red;
+      }
+      .Max,.Min{
+        background-color: green;
+        position: relative;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        border: 3px solid black;
+        border-radius: 8px; 
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 2px;
+        width: 150px;
+        height: 200px;
+      }
+      .card {
+        background-color: black;
+        position: relative;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        border: 3px solid black;
+        border-radius: 8px; 
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 10px;
+      }
+      .cars{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+      section .Last .cards{   
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    
+      
+}

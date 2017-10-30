@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href='style_sp.css'></link>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div  class="left">
+            <a id='home' href="main_page.html">Cars.kz</a>
+        </div>
+        <div  class="center">
+            <input id='search' type="search" placeholder="Search"></input>
+            <input id='button' type="button" value="Search" onclick="location.href='buy_page.html'" > ></input>
+        </div>
+        <div class="right">
+            <a id='buy' href="buy_page.html">SEARCH</a>
+            <a id='profile' href="profile_page.html">PROFILE</a>
+            <a id='favo' href="favorites_page.html">FAVORITES</a>
+        </div>
+        </div>
+    </header>
+    <section>
+            <div class="page">
+                <div class="card">
+                    <input type="image" class="in" ></input>
+                    <button type="submit" style="border: 0; background: transparent">
+                        <img src="/images/Btn.PNG" width="90" height="50" alt="submit" />
+                    </button>
+                </div>
+                <div class="disc">
+                    <div class="left">
+                        <textarea type="text" placeholder="Description"></textarea>
+                    </div>
+                    <div class="right">
+                            <table>
+                                    <tr>
+                                        <td align="left" margin-left="10px">Brand</td>
+                                        <td align="right"><select id="i1">
+                                        	<option>Audi</option>
+                                        	<option>Toyota</option>
+                                        	<option>Mersedes</option>
+                                        	<option>BMW</option>
+                                        	<option>Ferrari</option>
+                                        </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" margin-left="10px">Model</td>
+                                        <td align="right"><select  id="i2"></select></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" margin-left="10px">Year</td>
+                                        <td align="right"><input type="text" id="i3"></input></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" margin-left="10px">Mileage</td>
+                                        <td align="right"><input type="text" id="i4"></input></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" margin-left="10px">Price</td>
+                                        <td align="right"><input type="text" id="i5"></input></td>
+                                    </tr>
+                                </table>
+                    </div>
+                    <div class="accept">
+                        <button>Accept</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+            SDU 2017
+    </footer>
+</body>
+</html>

@@ -1,0 +1,329 @@
+body{
+    margin: 0;
+    width:100%; 
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    padding: 0;
+    background-image: url(wall.jpg);
+    display: flex;
+    flex-wrap:wrap; 
+}
+footer{
+    background-color: black;
+    width: 100%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    align-self: flex-end;
+    order: 2;
+    font-size: 25px;
+    
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+}
+header .center{
+    align-items: center;
+    justify-content: center;
+}
+
+#search{
+    height: 20px;
+    width: 200px;
+}
+header div{
+    display: flex;
+    width: 25%;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right a:hover{
+    color: red;
+    font-size: 18px;
+}
+.left a:hover{
+    color: blue;
+    font-size: 40px;
+}
+header .right a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 25%;
+    border:1px solid black;
+}
+header .left a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 25%;
+    font-size: 40px;
+    border:1px solid black;
+}
+header h3{
+    width: 5%;
+    margin: 0;
+    margin-left: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+section{
+    margin: 0;
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.page{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.Search{
+    background-color: white;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+}
+.result .word{
+    text-align: center;
+}
+.card img{
+    width: 150px;    
+}
+.card .icon{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 30px;
+
+  }
+.card .title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+  .card .price{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: red;
+  }
+  .card {
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    border: 3px solid black;
+    height: 150px;
+    border-radius: 8px; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+  section .result .cards{   
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width:800px){
+    body{
+        margin: 0;
+        width:100%; 
+        font-family: 'Raleway', sans-serif;
+        height: 100vh;
+        padding: 0;
+        background-image: url(wall.jpg);
+        display: flex;
+        flex-wrap:wrap; 
+    }
+    footer{
+        background-color: black;
+        width: 100%;
+        color:white;
+        display: flex;
+        justify-content: center;
+        height: 5%;
+        align-self: flex-end;
+        order: 2;
+        font-size: 25px;
+        
+    }
+    
+    header{
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 50px;
+    }
+    header .center{
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #search , #button{
+        display: none;
+    }
+
+    header div{
+        display: flex;
+        width: 25%;
+    }
+    .right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .right a:hover{
+        color: red;
+        font-size: 18px;
+    }
+    .left a:hover{
+        color: blue;
+        font-size: 40px;
+    }
+    header .right a{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        width: 25%;
+        margin-left: 10px;
+        margin-right: 15px;
+        border:1px solid black;
+    }
+    header .left a{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        width: 25%;
+        font-size: 40px;
+        border:1px solid black;
+    }
+    header h3{
+        width: 5%;
+        margin: 0;
+        margin-left: 10px;
+        padding-top: 5px;
+        text-align: center;
+        color:white;
+        font-size: 30px;
+    }
+    section{
+        margin: 0;
+        width: 800px;
+        height: 800px;
+        background-color: black;
+        margin-left: auto;
+        margin-right:auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page{
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .Search{
+        background-color: white;
+        width: 600px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .result{
+        width: 600px;
+        height: 600px;
+        background-color: white;
+    }
+    .result .word{
+        text-align: center;
+    }
+    .card img{
+        width: 150px;    
+    }
+    .card .icon{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 30px;
+    
+      }
+    .card .title{
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+    }
+    
+      .card .price{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: red;
+      }
+      .card {
+        background-color: black;
+        position: relative;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        border: 3px solid black;
+        height: 150px;
+        border-radius: 8px; 
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 10px;
+      }
+      section .result .cards{   
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+}    
